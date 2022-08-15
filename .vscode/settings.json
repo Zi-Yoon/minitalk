@@ -1,0 +1,15 @@
+{
+	"files.associations": {
+		"ft_printf.h": "c",
+		"signal.h": "c",
+		"unistd.h": "c",
+		"libft.h": "c",
+		"minitalk.h": "c",
+		"exception": "c",
+		"client.h": "c",
+		"server.h": "c",
+		"server_bonus.h": "c"
+	},
+	"C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+	"C_Cpp.errorSquiggles": "Disabled"
+}

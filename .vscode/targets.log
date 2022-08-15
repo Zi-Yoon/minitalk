@@ -1,0 +1,384 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `libft/ft_putstr_fd.o', needed by `server'.  Stop.
+
+
+# Make data base, printed on Wed Jul  6 12:27:43 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 15)
+SERVER = server
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/mingzi/Desktop/mingzi_dev/42_Seoul_inner_circle/minitalk
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"26f3b44ea4f1e942cca002e9545643cc.ko","_translationsConfigFile":"/Users/mingzi/Library/Application Support/Code/clp/26f3b44ea4f1e942cca002e9545643cc.ko/tcf.json","_cacheRoot":"/Users/mingzi/Library/Application Support/Code/clp/26f3b44ea4f1e942cca002e9545643cc.ko","_resolvedLanguagePackCoreLocation":"/Users/mingzi/Library/Application Support/Code/clp/26f3b44ea4f1e942cca002e9545643cc.ko/30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"/Users/mingzi/Library/Application Support/Code/clp/26f3b44ea4f1e942cca002e9545643cc.ko/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 19)
+CFLAGS = -Wall -Werror -Wextra
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/pl/wtt6jht52xq842ht1myd9t_h0000gn/T/vscode-ipc-77dddd2f-7ac6-4507-849b-af5a9eb50939.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /usr/bin:/bin:/usr/sbin:/sbin
+# makefile (from `Makefile', line 31)
+SERVER_SRCS = $(addprefix ./srcs/, $(SERVER_FILES))
+# makefile (from `Makefile', line 27)
+SERVER_FILES = server.c server_utils.c
+# makefile (from `Makefile', line 34)
+ 
+CLIENT_SRCS_BONUS = $(addprefix ./srcs_bonus/, $(CLIENT_FILES_BONUS))
+# environment
+LaunchInstanceID = DE931BA0-73D7-4377-A4C5-8FF1F6771820
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `Makefile', line 28)
+SERVER_FILES_BONUS = server_bonus.c server_utils_bonus.c
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.iEFVljllGk/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 36)
+SERVER_OBJS_BONUS = $(SERVER_SRCS_BONUS:.c=.o)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/mingzi/Desktop/mingzi_dev/42_Seoul_inner_circle/minitalk
+# makefile (from `Makefile', line 29)
+CLIENT_FILES = client.c client_utils.c
+# makefile (from `Makefile', line 23)
+LIBFT_FILES = ft_putstr_fd.c ft_putnbr_fd.c ft_atoi.c ft_strdup.c ft_strlen.c
+# makefile (from `Makefile', line 45)
+CLIENT_OBJECTS = $(CLIENT_OBJS)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 37)
+CLIENT_OBJS = $(CLIENT_SRCS:.c=.o)
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/mingzi
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/mingzi/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LOGNAME = mingzi
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 16)
+CLIENT = client
+# makefile (from `Makefile', line 18)
+CC = gcc
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = mingzi
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/pl/wtt6jht52xq842ht1myd9t_h0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/mingzi/Library/Application Support/Code/1.68.1-main.sock
+# makefile (from `Makefile', line 21)
+INCFLAGS = -I./libft
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from `Makefile', line 25)
+LIBFT_OBJS = $(LIBFT_SRCS:.c=.o)
+# makefile (from `Makefile', line 32)
+SERVER_SRCS_BONUS = $(addprefix ./srcs_bonus/, $(SERVER_FILES_BONUS))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.12512164.12512170
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x3:0x33
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 33)
+CLIENT_SRCS = $(addprefix ./srcs/, $(CLIENT_FILES))
+# makefile (from `Makefile', line 24)
+LIBFT_SRCS = $(addprefix ./libft/, $(LIBFT_FILES))
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 13)
+MINITALK = MINITALK
+# environment
+SECURITYSESSIONID = 186b2
+# automatic
+ 
+^F = $(notdir $^)
+# makefile (from `Makefile', line 44)
+SERVER_OBJECTS = $(SERVER_OBJS)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 30)
+CLIENT_FILES_BONUS = client_bonus.c client_utils_bonus.c
+# makefile (from `Makefile', line 35)
+SERVER_OBJS = $(SERVER_SRCS:.c=.o)
+# default
+.INCLUDE_DIRS = /usr/local/include
+# makefile (from `Makefile', line 38)
+CLIENT_OBJS_BONUS = $(CLIENT_SRCS_BONUS:.c=.o)
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 638
+# variable set hash-table stats:
+# Load=87/1024=8%, Rehash=0, Collisions=6/132=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777233, inode 11975453): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: MINITALK
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+client: libft/ft_putstr_fd.o libft/ft_putnbr_fd.o libft/ft_atoi.o libft/ft_strdup.o libft/ft_strlen.o srcs/client.o srcs/client_utils.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 57):
+	$(CC) $(CFLAGS) $(INCFLAGS) $^ -o $@
+	
+
+.PHONY: all re clean fclean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+libft/ft_strlen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/client_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-02 10:50:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+server: libft/ft_putstr_fd.o libft/ft_putnbr_fd.o libft/ft_atoi.o libft/ft_strdup.o libft/ft_strlen.o srcs/server.o srcs/server_utils.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 54):
+	$(CC) $(CFLAGS) $(INCFLAGS) $^ -o $@
+	
+
+# Not a target:
+srcs/server_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bonus:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 62):
+	$(MAKE) BONUS=1 all
+	
+
+.c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 51):
+	$(CC) $(CFLAGS) $(INCFLAGS) -c $< -o $@
+	
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 70):
+	$(RM) $(SERVER) $(CLIENT)
+	
+
+# Not a target:
+libft/ft_putnbr_fd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/client.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 67):
+	$(RM) $(LIBFT_OBJS) $(SERVER_OBJS) $(SERVER_OBJS_BONUS) $(CLIENT_OBJS) $(CLIENT_OBJS_BONUS)
+	
+
+ 
+# Not a target:
+libft/ft_strdup.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/server.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+libft/ft_putstr_fd.o:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+MINITALK: server client
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+libft/ft_atoi.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=0/59=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Jul  6 12:27:43 2022
+
+ 

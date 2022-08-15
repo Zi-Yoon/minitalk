@@ -1,0 +1,16 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mingzi/Desktop/mingzi_dev/42_Seoul_inner_circle/minitalk'
+gcc -Wall -Werror -Wextra -I./libft -c libft/ft_putstr_fd.c -o libft/ft_putstr_fd.o
+gcc -Wall -Werror -Wextra -I./libft -c libft/ft_putnbr_fd.c -o libft/ft_putnbr_fd.o
+gcc -Wall -Werror -Wextra -I./libft -c libft/ft_atoi.c -o libft/ft_atoi.o
+gcc -Wall -Werror -Wextra -I./libft -c libft/ft_strdup.c -o libft/ft_strdup.o
+gcc -Wall -Werror -Wextra -I./libft -c libft/ft_strlen.c -o libft/ft_strlen.o
+ 
+gcc -Wall -Werror -Wextra -I./libft -c srcs/server.c -o srcs/server.o
+gcc -Wall -Werror -Wextra -I./libft -c srcs/server_utils.c -o srcs/server_utils.o
+gcc -Wall -Werror -Wextra -I./libft libft/ft_putstr_fd.o libft/ft_putnbr_fd.o libft/ft_atoi.o libft/ft_strdup.o libft/ft_strlen.o srcs/server.o srcs/server_utils.o -o server
+gcc -Wall -Werror -Wextra -I./libft -c srcs/client.c -o srcs/client.o
+gcc -Wall -Werror -Wextra -I./libft -c srcs/client_utils.c -o srcs/client_utils.o
+gcc -Wall -Werror -Wextra -I./libft libft/ft_putstr_fd.o libft/ft_putnbr_fd.o libft/ft_atoi.o libft/ft_strdup.o libft/ft_strlen.o srcs/client.o srcs/client_utils.o -o client
+make: Leaving directory `/Users/mingzi/Desktop/mingzi_dev/42_Seoul_inner_circle/minitalk'
+ 
